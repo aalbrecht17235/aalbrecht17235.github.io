@@ -93,6 +93,15 @@ span{
     padding-bottom: 20px;
 }
 
+#messageHeader {
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+form, textarea, button {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
 footer {
     position: fixed;
     left: 0;
