@@ -65,9 +65,10 @@ header .name {
 }
 
 .aboutme h1 {
-    color: blue;
+    color:#4aaaa5;
     padding-top: 15px;
     font-family: 'Georgia', Times, Times New Roman, serif;  
+    font-size: 25px;
 }
 
 span{
@@ -88,6 +89,9 @@ span{
     margin-right: 10px;
 }
 
+#lastp {
+    padding-bottom: 20px;
+}
 
 footer {
     position: fixed;
