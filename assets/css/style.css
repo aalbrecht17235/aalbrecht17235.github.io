@@ -1,0 +1,56 @@
+body {
+    background: #F1F1F1;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background: #ffffff;
+    border-bottom: solid #cccccc 1px;
+    width: 100%;
+}
+
+header h1 {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    height: 75px;
+}
+
+.nav {
+    float: right;
+} 
+
+.hero {
+    width: 960px;
+    margin: auto;
+    background: #ffffff;
+}
+
+.aboutme h1 {
+    color: blue;
+    margin-top: 100px;
+}
+
+.aboutme {
+    width: 90%;
+    margin: auto;
+}
+
+.aboutme img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: solid #4aaaa5 5px;
+}
+
