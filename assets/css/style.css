@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    height: 100px;
+    z-index: 999999;
+    height: 90px;
     background: #ffffff;
     border-bottom: solid #cccccc 1px;
     width: 100%;
