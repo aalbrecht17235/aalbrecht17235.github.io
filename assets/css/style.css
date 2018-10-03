@@ -28,14 +28,14 @@ header .name {
     float: left;
     background: #4aaaa5;
     color: white;
-    height: 75px;
+    height: 55px;
     position: absolute;
     bottom: 0;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 10px;
     font-size: 0.75em;
-
 }
+
 
 .nav {
     float: right;
@@ -45,8 +45,14 @@ header .name {
 .nav a {
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: black;
+    color:#777777;
     padding: 5px;
+}
+
+.nav a:hover {
+    color: black;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
 
 .hero {
@@ -64,6 +70,13 @@ header .name {
     margin-left: auto;  
 }
 
+.forms {
+    width: 90%;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
 .aboutme h1 {
     color:#4aaaa5;
     padding-top: 15px;
@@ -71,10 +84,20 @@ header .name {
     font-size: 25px;
 }
 
+/* forms is the same as .aboutme, but is for contact page */
+.forms h1 {
+    color:#4aaaa5;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+    font-size: 25px;
+}
+
+/* Acting as what would be the <hr> */
 span{
     display:block;
     width:100%; 
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #ccc;
     margin-bottom: 10px;
  }
 
@@ -82,6 +105,17 @@ span{
     padding-bottom: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 25px;
+    color: #777777;
+}
+
+/* forms is the same as .aboutme, but is for contact page */
+.forms p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 25px;
+    color: #777777;
+    margin: 0;
+    padding-bottom: 2px;
+    padding-top: 15px;
 }
 
 .aboutme img {
@@ -93,13 +127,33 @@ span{
     padding-bottom: 20px;
 }
 
-#messageHeader {
-    margin: 0;
-    padding-bottom: 2px;
+
+input {
+    width: 100%;
 }
+
+.textForm {
+    height: 20px;
+}
+
+::placeholder {
+    padding: 5px;
+}
+
+#comment {
+    height: 100px;
+    width: 100%;
+}
+
 
 form, textarea, button {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+button {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -111,6 +165,12 @@ footer {
     color: white;
     text-align: center;
     border-top: solid #4aaaa5 5px;
+}
+
+footer p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-bottom: 2px;
 }
 
 
