@@ -1,7 +1,8 @@
 body {
-    background: #F1F1F1;
+    background-image: url("../images/conoutline.png");
     margin: 0;
     height: 100%;
+    position: relative;
 }
 
 header {
@@ -231,4 +232,9 @@ footer {
     text-align: center;
     border-top: solid #4aaaa5 5px;
     height: 70px;
+}
+
+.sticky {
+    position: absolute;
+    bottom: 0;
 }
