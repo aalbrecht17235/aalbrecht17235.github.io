@@ -76,7 +76,7 @@ header .name {
     margin-top: 130px;
     border: solid #cccccc 1px;
     border-radius: 5px;
-    margin-bottom: 250px;
+    margin-bottom: 175px;
 }
 
 .aboutme {
@@ -148,12 +148,13 @@ span {
 
 /* .projects is the same as .forms and .aboutme, but for portfolio page */
 .projects p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     line-height: 25px;
-    color: #777777;
-    margin: 0;
-    padding-bottom: 2px;
-    padding-top: 15px;
+    color:white;
+    padding-top: 10px;
+    text-align:center;
+    margin: auto;
+    font-size: 20px;
 }
 
 .aboutme img {
@@ -203,22 +204,26 @@ button {
 }
 
 .project {
-    width: 220px;
-    height: 150px;
-    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    border: 1px solid #cccccc;
     display: inline-block;
     margin-right: 50px;
-    margin-bottom: 50px;
     position: relative;
+    border-radius: 5px;
+}
+
+#lastProject {
+    margin-bottom: 45px;
 }
 
 .banner {
-    width: 99.5%;
+    width: 100%;
     margin: 0;
-    height: 25px;
-    border: 1px solid black;
+    height: 45px;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
+    background: #4aaaa5;
 }
 
 
